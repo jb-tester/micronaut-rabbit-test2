@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Microservices</ID>
+  <OriginalElement>{"typeTag":"com.intellij.microservices.ui.diagrams.model.WebservicesDiagramMQSeedElement","mqDestinations":[{"b":{"typeTag":"com.intellij.microservices.mq.NamedMQType","name":"RabbitMQ"},"a":"product"}]}</OriginalElement>
+  <nodes>
+    <node x="397.0" y="-22.0">{"typeTag":"com.intellij.microservices.ui.diagrams.model.WebservicesDiagramMQDestination","mqDestination":{"b":{"typeTag":"com.intellij.microservices.mq.NamedMQType","name":"RabbitMQ"},"a":"product"}}</node>
+    <node x="19.0" y="-76.0">{"typeTag":"com.intellij.microservices.ui.diagrams.model.WebservicesDiagramWebservice","moduleName":"micronaut-rabbit-test2"}</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="{&quot;typeTag&quot;:&quot;com.intellij.microservices.ui.diagrams.model.WebservicesDiagramWebservice&quot;,&quot;moduleName&quot;:&quot;micronaut-rabbit-test2&quot;}" target="{&quot;typeTag&quot;:&quot;com.intellij.microservices.ui.diagrams.model.WebservicesDiagramMQDestination&quot;,&quot;mqDestination&quot;:{&quot;b&quot;:{&quot;typeTag&quot;:&quot;com.intellij.microservices.mq.NamedMQType&quot;,&quot;name&quot;:&quot;RabbitMQ&quot;},&quot;a&quot;:&quot;product&quot;}}" relationship="MQ_RECEIVE_CONNECTION">
+      <point x="121.0" y="-0.0" />
+      <point x="316.0" y="-60.0" />
+      <point x="316.0" y="-6.0" />
+      <point x="-89.0" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.0" showDependencies="false" x="289.5" y="-16.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>From libraries</Category>
+    <Category>From tests</Category>
+  </Categories>
+</Diagram>
+
